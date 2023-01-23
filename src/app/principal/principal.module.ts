@@ -7,6 +7,7 @@ import { BusquedaComponent } from './busqueda/busqueda.component';
 import { AppRoutingModule } from '../app-routing.module';
 import { FormsModule } from '@angular/forms';
 import { LoginComponent } from './login/login.component';
+import { MensajeComponent } from './mensaje/mensaje.component';
 
 
 
@@ -16,7 +17,8 @@ import { LoginComponent } from './login/login.component';
     VistaComponent,
     FormularioComponent,
     BusquedaComponent,
-    LoginComponent
+    LoginComponent,
+    MensajeComponent
   ],
   imports: [
     CommonModule,
@@ -28,7 +30,8 @@ import { LoginComponent } from './login/login.component';
     VistaComponent,
     FormularioComponent,
     BusquedaComponent,
-    LoginComponent
+    LoginComponent,
+    MensajeComponent
   ]
 })
 export class PrincipalModule { }

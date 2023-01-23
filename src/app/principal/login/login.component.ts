@@ -27,7 +27,7 @@ export class LoginComponent {
   deshabilitado = true;
 
   validacion(){
-    if(this.usu !=="AD" || this.pass !== "123456"){
+    if(this.usu !=="test" || this.pass !== "test"){
       this.deshabilitado = true;
     }
     else{

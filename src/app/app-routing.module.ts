@@ -4,6 +4,7 @@ import { CanactivateGuard } from './canactivate.guard';
 import { BusquedaComponent } from './principal/busqueda/busqueda.component';
 import { FormularioComponent } from './principal/formulario/formulario.component';
 import { LoginComponent } from './principal/login/login.component';
+import { MensajeComponent } from './principal/mensaje/mensaje.component';
 import { VistaComponent } from './principal/vista/vista.component';
 
 const routes: Routes = [
@@ -12,7 +13,8 @@ const routes: Routes = [
   {path: 'busqueda', component: BusquedaComponent,canActivate:[CanactivateGuard]},
 
   {path: 'login', component: LoginComponent},
-  {path: '', component: LoginComponent}
+  {path: '', component: LoginComponent},
+  {path: 'mensaje', component:MensajeComponent}
 ];
 
 @NgModule({
